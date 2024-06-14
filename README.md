@@ -1,18 +1,9 @@
-ICO Marketplace
-This project is a simple Initial Coin Offering (ICO) marketplace developed using Solidity for smart contracts, Hardhat for deployment and testing, and React.js for the frontend. It allows users to purchase tokens with Ether during the ICO.
-
-Features
-Token Minting: Mint a specified number of tokens during deployment.
-Token Purchase: Users can purchase tokens by sending Ether to the ICO contract.
-Withdraw Funds: The owner can withdraw collected Ether from the ICO contract.
-
-
 Setup and Installation
 Prerequisites
 Node.js
 npm or yarn
 Hardhat
-MetaMask or any other Ethereum wallet
+MetaMask or other Ethereum wallet
 Installation
 Clone the repository:
 bash
@@ -40,12 +31,6 @@ npm start
 Usage
 Open your browser and navigate to http://localhost:3000.
 Connect your Ethereum wallet (e.g., MetaMask).
-View your token balance and purchase tokens by entering an amount in ETH and clicking "Buy Tokens".
+Enter an amount in ETH and click "Buy Tokens" to purchase tokens.
 Contributing
-Contributions are welcome! Please fork the repository and create a pull request with your changes. Make sure to follow the existing code style and include appropriate tests.
-
-Fork the repository.
-Create a new branch (git checkout -b feature/your-feature).
-Commit your changes (git commit -am 'Add new feature').
-Push to the branch (git push origin feature/your-feature).
-Create a new Pull Request
+Contributions are welcome! Please fork the repository, create a new branch, make your changes, and submit a pull request.
